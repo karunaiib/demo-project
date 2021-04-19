@@ -17,7 +17,7 @@ public class DemoApplication {
 	}
 
 	@GetMapping("/")
-	public List<String> hello() {
+	public List<String> list() {
 				return List.of("Hello", "World");
 	}
 	
